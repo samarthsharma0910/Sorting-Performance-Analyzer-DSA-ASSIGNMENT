@@ -1,0 +1,18 @@
+Correctness Check:
+Original: [5, 2, 9, 1, 5, 6]    
+Insertion: [1, 2, 5, 5, 6, 9]   
+Merge: [1, 2, 5, 5, 6, 9]       
+Quick: [1, 2, 5, 5, 6, 9]       
+
+
+--- Performance Results (ms) ---
+Size    Type            Insertion       Merge           Quick
+1000    random          42.46           2.35            1.74
+1000    sorted          0.53            5.88            2.28
+1000    reverse         97.25           1.48            1.45
+5000    random          996.11          25.46           19.12
+5000    sorted          1.00            9.85            15.59
+5000    reverse         1792.89         8.06            9.20
+10000   random          3664.41         27.86           19.29
+10000   sorted          2.21            23.31           29.14
+10000   reverse         6879.94         22.48           36.97
