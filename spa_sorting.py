@@ -7,8 +7,8 @@ Course Title: Data Structures
 Course Code: ETCCDS202
 Unit Number: 3
 Unit Title: Sorting Algorithms
-Student Name: SWATI SINGH
-Roll No: 2501730269
+Student Name: Samarth Sharma
+Roll No: 2501730279
 Section: A'''
 
 import time
